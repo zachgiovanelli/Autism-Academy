@@ -29,7 +29,7 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.ViewHolder> 
     private int rowLayout;
     private Context mContext;
     //TODO: delete
-    private final String API_KEY = "AIzaSyAoraWaOTLLsJRh3Igr3XK3y9D_Y7ULB9w";
+    private final String API_KEY = "";
 
 
     public VideoAdapter(ArrayList<Video> list, int rowLayout, Context context) {
