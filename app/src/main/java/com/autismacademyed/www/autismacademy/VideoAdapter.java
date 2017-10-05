@@ -4,7 +4,6 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -19,6 +18,7 @@ import com.prof.youtubeparser.models.videos.Video;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
+
 /**
  * Created by Owner on 9/26/2017.
  */
@@ -112,7 +112,7 @@ public class VideoAdapter extends RecyclerView.Adapter<VideoAdapter.ViewHolder> 
         viewHolder.itemView.setOnLongClickListener(new View.OnLongClickListener() {
             @Override
             public boolean onLongClick(View view) {
-                Intent intent1 = new Intent(Intent.ACTION_VIEW, Uri.parse(link));
+                Intent intent1 = new Intent(view.getContext(), YouTube.class);
                 mContext.startActivity(intent1);
                 return false;
             }

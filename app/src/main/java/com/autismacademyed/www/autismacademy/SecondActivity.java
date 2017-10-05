@@ -40,7 +40,7 @@ public class SecondActivity extends AppCompatActivity {
     private FloatingActionButton fab;
     private int totalElement;
     private String nextToken;
-    private final String CHANNEL_ID = "UUUwPShLvnCOTeQILvAtneOw";
+    private final String CHANNEL_ID = "UCUwPShLvnCOTeQILvAtneOw";
     //TODO: delete
     private final String API_KEY = "AIzaSyAoraWaOTLLsJRh3Igr3XK3y9D_Y7ULB9w";
 
